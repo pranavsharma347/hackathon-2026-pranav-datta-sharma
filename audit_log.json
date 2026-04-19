@@ -1,0 +1,51 @@
+[
+    {
+        "ticket_id": "TKT-001",
+        "actions": [
+            "get_order",
+            "check_refund_eligibility",
+            "issue_refund",
+            "send_reply"
+        ],
+        "status": "resolved",
+        "reply": "Hi, I have processed a full refund of $129.99 for your order ORD-1001. Please allow 5-7 business days for the refund to reflect in your account."
+    }
+][
+    {
+        "ticket_id": "TKT-002",
+        "actions": [
+            "get_order",
+            "check_refund_eligibility",
+            "issue_refund",
+            "send_reply"
+        ],
+        "status": "resolved",
+        "reply": "The refund for your order ORD-1002 has been processed. You should see the amount of $249.99 back in your account within 3-5 business days."
+    }
+]
+[
+    {
+        "ticket_id": "TKT-003",
+        "actions": [
+            "get_order",
+            "get_product",
+            "send_reply"
+        ],
+        "status": "resolved",
+        "reply": "Thank you for contacting us. Your BrewMaster 3000 Coffee Maker is no longer eligible for a refund as the return window has expired. However, it is still under warranty until January 9, 2026. We can help you with a warranty claim for a replacement unit. Would you like to proceed with a warranty replacement?"
+    }
+]
+
+[
+    {
+        "ticket_id": "TKT-004",
+        "actions": [
+            "get_order",
+            "check_refund_eligibility",
+            "issue_refund",
+            "send_reply"
+        ],
+        "status": "resolved",
+        "reply": "Dear customer, we have processed a full refund of $89.99 for your order ORD-1004. You can expect to see the refund in your account within 3-5 business days. We apologize for the inconvenience caused by the incorrect shoe size. If you would like to exchange for the correct size, please place a new order. Thank you for your understanding."
+    }
+]

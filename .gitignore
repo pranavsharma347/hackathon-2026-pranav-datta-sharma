@@ -1,0 +1,39 @@
+# Python environment
+myenv/
+venv/
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE related
+.vscode/
+.idea/
+*.swp
+
+# Large AI libraries or models
+*.pt
+*.bin
+*.h5
+*.onnx
+*.ckpt
+*.model
+*.weights
+*.tar.gz
+*.zip
+
+# Temporary and debug
+tmp/
+logs/
+
+
+
